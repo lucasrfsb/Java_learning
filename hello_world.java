@@ -1,6 +1,6 @@
 public class hello_world
 {
-    public static void main (String args[])
+    public static void main (String[] args)
     {
         print_hello();
     }
@@ -8,6 +8,7 @@ public class hello_world
     private static void print_hello()
     {
         System.out.print("Hello world!");
+        System.out.print("Hello AGAIN!");
     }
 
 }
