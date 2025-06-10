@@ -1,14 +1,9 @@
 public class hello_world
 {
-    public static void main (String[] args)
+    public static void print_hello(String[] args)
     {
-        print_hello();
+        System.out.println("Hello world!");
+        System.out.println("arg0: " + args[0]);
+        System.out.println("arg1: " + args[1]);
     }
-
-    private static void print_hello()
-    {
-        System.out.print("Hello world!");
-        System.out.print("Hello AGAIN!");
-    }
-
 }
