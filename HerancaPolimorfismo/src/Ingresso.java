@@ -1,8 +1,9 @@
 public sealed class Ingresso permits MeiaEntrada, IngressoFamilia{
 
-    private double Valor;
-    private String Nome;
-    private boolean Dublado;
+    private final double Valor;
+    private final String Nome;
+    private final boolean Dublado;
+
 
     public Ingresso(double Valor, String Nome, boolean Dublado){
         this.Valor = Valor;
@@ -14,4 +15,11 @@ public sealed class Ingresso permits MeiaEntrada, IngressoFamilia{
         return this.Valor;
     }
 
+    public String getNome() {
+        return Nome;
+    }
+
+    public boolean isDublado() {
+        return Dublado;
+    }
 }

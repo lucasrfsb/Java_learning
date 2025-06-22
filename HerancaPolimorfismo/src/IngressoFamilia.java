@@ -1,6 +1,6 @@
 public non-sealed class IngressoFamilia extends Ingresso{
 
-    private int Pessoas;
+    private final int Pessoas;
 
     public IngressoFamilia(double Valor, String Nome, boolean Dublado, int Pessoas) {
         super(Valor, Nome, Dublado);
